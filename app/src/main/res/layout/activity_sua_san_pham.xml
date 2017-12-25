@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trannguyentanthuan2903.followshop.SuaSanPhamActivity">
+    <include layout="@layout/layout_previous" />
+    <include layout="@layout/layout_previous" />
+    <ImageView
+        android:src="@drawable/product_icon"
+        android:id="@+id/suaHinhSP"
+        android:padding="10dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonSuaSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/suaTenSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suaHinhSP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Tên sản phẩm" />
+
+    <EditText
+        android:id="@+id/suaGiaSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/suaTenSp"
+        android:layout_alignRight="@+id/suaTenSp"
+        android:layout_below="@+id/suaTenSp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Giá Sản phẩm" />
+
+    <TextView
+        android:textColor="#e45454"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suaGiaSp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Chi tiết sản phẩm"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/suaChiTietSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/suaGiaSp"
+        android:layout_alignStart="@+id/suaGiaSp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Chi tiết sản phảm" />
+
+
+</RelativeLayout>

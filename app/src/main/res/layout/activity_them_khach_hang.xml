@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_them_khach_hang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trannguyentanthuan2903.followshop.ThemKhachHang">
+
+    <include layout="@layout/layout_previous" />
+
+    <TextView
+        android:id="@+id/textViewThemHoaDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="Thông Tin Khách Hàng"
+        android:textColor="#ff00"
+        android:textSize="25sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/suaHoTenKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập Họ Tên"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textViewThemHoaDon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp" />
+
+    <EditText
+        android:id="@+id/suaDiaChiKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/suaHoTenKH"
+        android:ems="10"
+        android:hint="Nhập Địa chỉ"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/suaSDTKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/suaDiaChiKH"
+        android:ems="10"
+        android:hint="Nhập SĐT"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonThemKH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:layout_below="@+id/imageViewHinhKH"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+    <ImageView
+        android:id="@+id/imageViewHinhKH"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_below="@+id/suaSDTKH"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/android_4" />
+
+</RelativeLayout>

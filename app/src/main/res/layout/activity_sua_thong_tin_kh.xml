@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trannguyentanthuan2903.followshop.SuaThongTinKhActivity">
+
+    <include layout="@layout/layout_previous" />
+
+    <TextView
+        android:id="@+id/textViewThemHoaDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="Thông Tin Khách Hàng"
+        android:textColor="#ff00"
+        android:textSize="25sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/suaHoTenKH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:ems="30"
+        android:inputType="textPersonName"
+        android:text="Nhập Họ Tên"
+        android:textColor="#16580f"
+        android:textSize="20sp"
+        android:layout_below="@+id/textViewThemHoaDon"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <EditText
+        android:id="@+id/suaDiaChiKH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="30"
+        android:inputType="textPersonName"
+        android:text="Địa chỉ"
+        android:textColor="#16580f"
+        android:textSize="20sp"
+        android:layout_below="@+id/suaHoTenKH"
+        android:layout_alignLeft="@+id/suaHoTenKH"
+        android:layout_alignStart="@+id/suaHoTenKH" />
+
+    <EditText
+        android:id="@+id/suaSDTKH"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="30"
+        android:inputType="number"
+        android:text="SĐT"
+        android:textColor="#16580f"
+        android:textSize="20sp"
+        android:layout_below="@+id/suaDiaChiKH"
+        android:layout_alignLeft="@+id/suaDiaChiKH"
+        android:layout_alignStart="@+id/suaDiaChiKH"
+        android:layout_marginTop="24dp" />
+
+
+    <ImageView
+        android:id="@+id/suaDaiDienKH"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/suaSDTKH"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/android_4" />
+
+    <Button
+        android:id="@+id/buttonLuuThongTinKh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

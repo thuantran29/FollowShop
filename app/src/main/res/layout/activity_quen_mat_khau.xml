@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trannguyentanthuan2903.followshop.QuenMatKhauActivity">
+    <include layout="@layout/layout_previous" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="114dp"
+        android:text="Quên mật khẩu"
+        android:textColor="#f93535"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextEmailForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonSendForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/editTextEmailForgot"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/custom_button_login"
+        android:text="Gửi"
+        android:textColor="#efeaea"
+        android:layout_alignStart="@+id/editTextEmailForgot"
+        android:layout_alignEnd="@+id/editTextEmailForgot"
+        android:layout_alignLeft="@+id/editTextEmailForgot"
+        android:layout_alignRight="@+id/editTextEmailForgot" />
+</RelativeLayout>

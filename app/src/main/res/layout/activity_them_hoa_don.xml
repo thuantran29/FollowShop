@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_them_hoa_don"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trannguyentanthuan2903.followshop.ThemHoaDon">
+
+    <include layout="@layout/layout_previous" />
+
+    <TextView
+        android:id="@+id/textViewThemHoaDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="Lập Hóa Đơn"
+        android:textColor="#ff00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewNgayLapHd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageViewHIinhHD"
+        android:layout_alignStart="@+id/imageViewHIinhHD"
+        android:layout_below="@+id/textViewThemHoaDon"
+        android:layout_marginTop="45dp"
+        android:hint="Ngày Lập Hóa Đơn"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/editTextTenKHHD"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/textViewNgayLapHd"
+        android:layout_alignStart="@+id/textViewNgayLapHd"
+        android:layout_below="@+id/textViewNgayLapHd"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Tên Khách Hàng"
+        android:inputType="textPersonName"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textViewSPHd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextTenKHHD"
+        android:layout_alignStart="@+id/editTextTenKHHD"
+        android:layout_below="@+id/editTextTenKHHD"
+        android:layout_marginTop="29dp"
+        android:text="Sản Phẩm"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewGiaHd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/soLuong"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="29dp"
+        android:text="Giá Sản Phẩm"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonHoaDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lập Hóa Đơn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageViewHIinhHD"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/buttonHoaDon"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/android_4" />
+
+    <EditText
+        android:id="@+id/soLuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewSPHd"
+        android:layout_alignStart="@+id/textViewSPHd"
+        android:layout_below="@+id/textViewSPHd"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Nhập số lượng"
+        android:inputType="number"
+        android:textColor="#000" />w
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewGiaHd"
+        android:layout_marginLeft="48dp"
+        android:layout_toEndOf="@+id/buttonHoaDon"
+        android:layout_toRightOf="@+id/buttonHoaDon"
+        android:text="Đồng"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewNgayLapHd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:text="Ngày bán:" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewSPHd"
+        android:layout_marginLeft="12dp"
+        android:text="Khách hàng" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/soLuong"
+        android:layout_marginLeft="12dp"
+        android:text="Sản phẩm" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/soLuong"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Số lượng:" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewGiaHd"
+        android:layout_marginLeft="12dp"
+        android:text="Giá:" />
+
+</RelativeLayout>

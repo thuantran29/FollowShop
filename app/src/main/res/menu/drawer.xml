@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Thông Tin">
+        <menu>
+            <item
+                android:id="@+id/menuKhachHang"
+                android:icon="@drawable/khachhang"
+                android:title="Khách Hàng" />
+            <item
+                android:id="@+id/menuSanPham"
+                android:icon="@drawable/sanpham"
+                android:title="Sản Phẩm" />
+            <item
+                android:id="@+id/menuHoaDon"
+                android:icon="@drawable/hoadon"
+                android:title="Hóa Đơn" />
+        </menu>
+    </item>
+    //menu con/menu cấp hai
+
+    <item android:title="Hệ Thống">
+        <menu>
+            <item
+                android:id="@+id/menuPassword"
+                android:icon="@drawable/cancel"
+                android:title="Đổi mật khẩu" />
+            <item
+                android:id="@+id/menuClose"
+                android:icon="@drawable/cancel"
+                android:title="Thoát" />
+        </menu>
+    </item>
+</menu>

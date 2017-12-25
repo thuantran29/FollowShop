@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_them_san_pham"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trannguyentanthuan2903.followshop.ThemSanPham">
+    <include layout="@layout/layout_previous"/>
+    <TextView
+        android:text="Nhập sản phẩm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewThemHoaDon"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="61dp"
+        android:textColor="#ff00"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextGiaSPNhap"
+        android:hint="Nhập giá sản phẩm"
+        android:layout_below="@+id/editTextTenSPNhap"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:src="@drawable/android_4"
+        android:id="@+id/imageViewHinhSPNhap"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/editTextMoTaSPNhap"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editTextGiaSPNhap"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editTextMoTaSPNhap"
+        android:hint="Nhập mô tả sản phẩm" />
+
+    <Button
+        android:text="Thêm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonThemSPNhap"
+        android:layout_below="@+id/imageViewHinhSPNhap"
+        android:layout_alignLeft="@+id/imageViewHinhSPNhap"
+        android:layout_alignStart="@+id/imageViewHinhSPNhap"
+        android:layout_alignRight="@+id/imageViewHinhSPNhap"
+        android:layout_alignEnd="@+id/imageViewHinhSPNhap" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerIdLoaiSP"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/textViewThemHoaDon"
+        android:layout_alignRight="@+id/editTextTenSPNhap"
+        android:layout_alignEnd="@+id/editTextTenSPNhap"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <EditText
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextTenSPNhap"
+        android:hint="Nhập tên sản phẩm "
+        android:layout_below="@+id/spinnerIdLoaiSP"
+        android:layout_alignLeft="@+id/editTextGiaSPNhap"
+        android:layout_alignStart="@+id/editTextGiaSPNhap" />
+
+    <TextView
+        android:text="Chọn loại sản phẩm:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_alignTop="@+id/spinnerIdLoaiSP"
+        android:layout_alignLeft="@+id/editTextTenSPNhap"
+        android:layout_alignStart="@+id/editTextTenSPNhap" />
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail__san__pham"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trannguyentanthuan2903.followshop.Detail_San_Pham">
+
+    <include layout="@layout/layout_previous" />
+
+    <ImageView
+        android:id="@+id/suaHinhSP"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/suaTenSp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/suaTenSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/suaGiaSp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/suaGiaSp"
+        android:layout_marginTop="85dp"
+        android:text="Tên sản phẩm"
+        android:textColor="#ff00"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/suaGiaSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suaTenSp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/textviewInfoDetail"
+        android:layout_toRightOf="@+id/textviewInfoDetail"
+        android:text="5.000.000Đ"
+        android:textColor="#0051ff"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/buttonLuuSuaSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/suaHinhSP"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Mua" />
+
+    <TextView
+        android:id="@+id/textviewInfoDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/suaHinhSP"
+        android:padding="10dp"
+        android:text="Thông tin chi tiết"
+        android:textColor="#932acf"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/suaChiTietSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewInfoDetail"
+        android:paddingLeft="10dp"
+        android:text="Chi tiết sản phẩm"
+        android:textColor="#3f3d40"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/buttonSuaSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa"
+        android:layout_marginRight="12dp"
+        android:layout_alignBaseline="@+id/buttonLuuSuaSP"
+        android:layout_alignBottom="@+id/buttonLuuSuaSP"
+        android:layout_toLeftOf="@+id/buttonLuuSuaSP"
+        android:layout_toStartOf="@+id/buttonLuuSuaSP" />
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "125193220296",
+    "firebase_url": "https://quanlybanhang-fd442.firebaseio.com",
+    "project_id": "quanlybanhang-fd442",
+    "storage_bucket": "quanlybanhang-fd442.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125193220296:android:e7c2bf9fdec24bb2",
+        "android_client_info": {
+          "package_name": "com.trannguyentanthuan2903.quanlybanhang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125193220296-5m19f1pe2qufbfken1dbjuofpck9cmj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trannguyentanthuan2903.quanlybanhang",
+            "certificate_hash": "ff5eb1b02dc9cb42c7c620245a10a244f489b6b8"
+          }
+        },
+        {
+          "client_id": "125193220296-4n17976ojns8q3cfph7vfunjifqjs1vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFPoBY3qHGW1jcMCJZHXS0TCptyj9uisY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125193220296-4n17976ojns8q3cfph7vfunjifqjs1vd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125193220296:android:ba4ed380622a2940",
+        "android_client_info": {
+          "package_name": "com.trannguyentanthuan2903.followshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125193220296-e19bssv7sa5mub98ld9fhblj9nv8j70l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trannguyentanthuan2903.followshop",
+            "certificate_hash": "ff5eb1b02dc9cb42c7c620245a10a244f489b6b8"
+          }
+        },
+        {
+          "client_id": "125193220296-4n17976ojns8q3cfph7vfunjifqjs1vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFPoBY3qHGW1jcMCJZHXS0TCptyj9uisY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125193220296-4n17976ojns8q3cfph7vfunjifqjs1vd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

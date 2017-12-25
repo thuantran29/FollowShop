@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trannguyentanthuan2903.followshop.DangKyActivity">
+    <include layout="@layout/layout_previous" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/custom_edittext"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="24dp"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextEmail"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_edittext"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:paddingLeft="24dp"
+        android:layout_alignLeft="@+id/editTextEmail" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/editTextPass"
+        android:layout_alignStart="@+id/editTextPass"
+        android:layout_below="@+id/editTextPass"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/custom_button_login"
+        android:text="Hoàn thành"
+        android:textColor="#FFFFFF"
+        android:layout_alignRight="@+id/editTextPass"
+        android:layout_alignLeft="@+id/editTextPass" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:text="Đăng ký Tài khoản"
+        android:textColor="#1973e2"
+        android:textSize="24sp" />
+</RelativeLayout>

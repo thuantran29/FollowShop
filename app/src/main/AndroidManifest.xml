@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trannguyentanthuan2903.followshop">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ThemKhachHang" />
+        <activity android:name=".ThemSanPham" />
+        <activity android:name=".Detail_Khach_Hang" />
+        <activity android:name=".ThemLoaiSanPham" />
+        <activity android:name=".Detail_San_Pham" />
+        <activity android:name=".Detail_Hoa_Don" />
+        <activity android:name=".ThemHoaDon" />
+        <activity android:name=".SuaThongTinKhActivity" />
+        <activity android:name=".SuaSanPhamActivity" />
+        <activity android:name=".SanPhamListActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuenMatKhauActivity" />
+        <activity android:name=".DangKyActivity" />
+        <activity android:name=".DoiMatKhauActivity" />
+        <activity android:name=".SuaLoaiSanPhamActivity"></activity>
+    </application>
+
+</manifest>

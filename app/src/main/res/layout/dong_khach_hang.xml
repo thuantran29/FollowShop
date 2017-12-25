@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/android_4"
+        android:id="@+id/imageViewHinhKh"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_marginRight="20dp"
+        android:textColor="#de3a3a"
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewHinhKh"
+        android:layout_toEndOf="@+id/imageViewHinhKh"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textViewTenKh"
+        android:textSize="18sp" />
+
+    <TextView
+        android:textColor="#de3a3a"
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/textViewSdtKh"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/imageViewHinhKh"
+        android:layout_alignLeft="@+id/textViewTenKh"
+        android:layout_alignStart="@+id/textViewTenKh" />
+</RelativeLayout>
